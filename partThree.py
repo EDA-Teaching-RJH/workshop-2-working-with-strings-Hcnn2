@@ -6,9 +6,13 @@ def main():
 
 
 def pounds_to_float(d):
-    # TODO
+    poundfloat = (d.slice(1,1))
+    cf = float(poundfloat)
+
 
 def percent_to_float(p):
-    # TODO
+    percentfloat = (p.slice(-1,-1))
+    pf = float(percentfloat) / 100
+
 
 main()
