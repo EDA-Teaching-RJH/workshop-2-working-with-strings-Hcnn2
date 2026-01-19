@@ -3,6 +3,7 @@ def main():
     myFunction(slow)
 
 def myFunction(text):
-    slow.replace(' ','...')
+    fries = text.replace(' ','...')
+    print(fries)
 
 main()
