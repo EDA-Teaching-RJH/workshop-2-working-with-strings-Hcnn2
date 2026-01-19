@@ -9,7 +9,7 @@ def pythag(A,B):
     A1 = A**2
     B1 = B**2
     C1 = A1 + B1
-    C = C1**0.5
+    C = int(C1**0.5)
     print(C)
 
 main()
